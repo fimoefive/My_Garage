@@ -8,6 +8,13 @@ namespace My_Garage.Vehicles
 {
     class Car : Vehicle
     {
+        public Car(string color, int occupancy)
+        {
+            Fuel = 100;
+            Color = color;
+            Occupancy = occupancy;
+
+        }
 
         // Refueling Method
         public void Refueling()

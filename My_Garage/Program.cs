@@ -1,4 +1,6 @@
 ﻿using System;
+using My_Garage.Vehicles;
+using System.Collections.Concurrent;
 
 namespace My_Garage
 {
@@ -10,6 +12,7 @@ namespace My_Garage
 
             // Build a collection of all vehicles that fly
             // With a single `foreach`, have each vehicle Fly()
+            var aircraft = new BeachCraft();
 
             // Build a collection of all vehicles that operate on roads
             // With a single `foreach`, have each road vehicle Drive()

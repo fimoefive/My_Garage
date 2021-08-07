@@ -8,6 +8,13 @@ namespace My_Garage.Vehicles
 {
     class Aircraft : Vehicle
     {
+        public Aircraft(string color, int occupancy)
+        {
+            Fuel = 100;
+            Color = color;
+            Occupancy = occupancy;
+
+        }
 
 
         // Method Refueling

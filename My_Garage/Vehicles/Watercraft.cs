@@ -8,6 +8,14 @@ namespace My_Garage.Vehicles
 {
     class Watercraft : Vehicle
     {
+        public Watercraft(string color, int occupancy)
+        {
+            Fuel = 100;
+            Color = color;
+            Occupancy = occupancy;
+
+        }
+
         // Public Property
         public bool Fishing { get; set; }
 
