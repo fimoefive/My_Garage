@@ -17,19 +17,22 @@ namespace My_Garage.Vehicles
         // Method Refueling
         public void Refueling()
         {
-
+            if (Fuel <= 33)
+            {
+                Console.WriteLine("Prepair for landing to refuel.");
+            }
         }
 
         // Method Flying
         public void Flying()
         {
-
+            Console.WriteLine("We are airborn, buckel up!");
         }
 
         // Method Landing
         public void Landing()
         {
-
+            Console.WriteLine("Tower we are decending and approching the runway.");
         }
 
 
