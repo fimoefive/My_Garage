@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace My_Garage.Vehicles
 {
-    class Vehicle
+    abstract class Vehicle
     {
         // Public Properties
         public short Fuel { get; set; }
+        public short Battery { get; set; }
         public string Color { get; set; }
         public int Occupancy { get; set; }
 
+        // public abstract void Refueling();
     }
 }
