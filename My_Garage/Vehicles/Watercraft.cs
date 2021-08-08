@@ -9,11 +9,13 @@ namespace My_Garage.Vehicles
 {
     class Watercraft : Vehicle
     {
+        // Object Intializer 
         public Watercraft(string color, int occupancy)
         {
             Fuel = 100;
             Color = color;
             Occupancy = occupancy;
+            Fishing = true;
 
         }
 

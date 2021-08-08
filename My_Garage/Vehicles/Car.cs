@@ -9,6 +9,7 @@ namespace My_Garage.Vehicles
 {
     class Car : Vehicle
     {
+        // Object Intializer 
         public Car(string color, int occupancy)
         {
             Fuel = 100;
