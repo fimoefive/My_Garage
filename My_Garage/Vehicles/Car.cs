@@ -4,13 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Vehicles namespace
 namespace My_Garage.Vehicles
 {
     class Car : Vehicle
     {
+        // Object Intializer 
+        public Car(string color, int occupancy)
+        {
+            Fuel = 100;
+            Color = color;
+            Occupancy = occupancy;
+
+        }
 
         // Refueling Method
-        public void Refueling()
+        public override void Refueling()
         {
             if (Fuel <= 33)
             {

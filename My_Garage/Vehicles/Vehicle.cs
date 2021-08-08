@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+// Vehicles namespace
 namespace My_Garage.Vehicles
 {
+    // Abstract Class for Vehicle base
     abstract class Vehicle
     {
         // Public Properties
@@ -14,6 +15,8 @@ namespace My_Garage.Vehicles
         public string Color { get; set; }
         public int Occupancy { get; set; }
 
-        // public abstract void Refueling();
+        // Invoked Abstract Method
+        public abstract void Refueling();
+
     }
 }
