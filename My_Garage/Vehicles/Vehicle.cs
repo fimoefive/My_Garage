@@ -15,6 +15,8 @@ namespace My_Garage.Vehicles
         public string Color { get; set; }
         public int Occupancy { get; set; }
 
+        // Invoked Abstract Method
         public abstract void Refueling();
+
     }
 }
