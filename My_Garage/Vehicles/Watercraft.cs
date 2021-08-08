@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Vehicles namespace
 namespace My_Garage.Vehicles
 {
     class Watercraft : Vehicle
