@@ -19,7 +19,7 @@ namespace My_Garage.Vehicles
         }
 
         // Refueling Method
-        public void Refueling()
+        public override void Refueling()
         {
             if (Fuel <= 33)
             {

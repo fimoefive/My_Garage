@@ -12,7 +12,7 @@ namespace My_Garage
 
             // Build a collection of all vehicles that fly
             // With a single `foreach`, have each vehicle Fly()
-            var aircraft = new Aircraft("Yellow", 2);
+            var aircraft = new Aircraft("White", 2);
             aircraft.Flying();
             aircraft.Flying();
             aircraft.Flying();
@@ -29,10 +29,12 @@ namespace My_Garage
             car.Refueling();
 
 
-
             // Build a collection of all vehicles that operate on water
             // With a single `foreach`, have each water vehicle Drive()
-            //var boat = new Watercraft();
+            var boat = new Watercraft("Green", 4);
+            boat.Driving();
+            boat.Driving();
+            boat.Refueling();
 
 
 

@@ -12,7 +12,7 @@ namespace My_Garage.Vehicles
         // Object Intializer 
         public Watercraft(string color, int occupancy)
         {
-            Fuel = 100;
+            Fuel = 20;
             Color = color;
             Occupancy = occupancy;
             Fishing = true;
@@ -23,7 +23,7 @@ namespace My_Garage.Vehicles
         public bool Fishing { get; set; }
 
         // Method Refueling
-        public void Refueling()
+        public override void Refueling()
         {
     if (Fuel <= 33)
             {
