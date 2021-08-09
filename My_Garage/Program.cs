@@ -36,8 +36,10 @@ namespace My_Garage
             boat.Driving();
             boat.Refueling();
 
+            // List of myVehicles declared in vehicleList
             var vehicleList = new List<Vehicle>() { aircraft, car, boat };
 
+            // ForEach Loop of myVehicles in the Vehicle List
             foreach(var myVehicles in vehicleList)
             {
                 Console.WriteLine($"Vehicle: {myVehicles.GetType().Name}");
