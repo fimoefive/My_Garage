@@ -17,6 +17,5 @@ namespace My_Garage.Vehicles
 
         // Invoked Abstract Method
         public abstract void Refueling();
-
     }
 }

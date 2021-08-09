@@ -26,6 +26,10 @@ namespace My_Garage.Vehicles
             {
                 Console.WriteLine("Prepair for landing to refuel.");
             }
+            else
+            {
+                Console.WriteLine("Cruising at high altitude to destination.");
+            }
         }
 
         // Method Flying

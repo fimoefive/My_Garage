@@ -8,7 +8,7 @@ namespace My_Garage
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("My Garage");
+            Console.WriteLine("My Garage\n\n");
 
             // Build a collection of all vehicles that fly
             // With a single `foreach`, have each vehicle Fly()
@@ -47,6 +47,7 @@ namespace My_Garage
                 Console.WriteLine($"Color: {myVehicles.Color}");
                 Console.WriteLine($"Occupancy: {myVehicles.Occupancy}");
                 myVehicles.Refueling();
+
                 Console.WriteLine("\n\n");
             }
 
