@@ -8,7 +8,7 @@ namespace My_Garage
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("My Garage");
+            Console.WriteLine("My Garage\n\n");
 
             // Build a collection of all vehicles that fly
             // With a single `foreach`, have each vehicle Fly()
@@ -36,7 +36,20 @@ namespace My_Garage
             boat.Driving();
             boat.Refueling();
 
+            // List of myVehicles declared in vehicleList
+            var vehicleList = new List<Vehicle>() { aircraft, car, boat };
 
+            // ForEach Loop of myVehicles in the Vehicle List
+            foreach(var myVehicles in vehicleList)
+            {
+                Console.WriteLine($"Vehicle: {myVehicles.GetType().Name}");
+                Console.WriteLine($"Fuel Level: {myVehicles.Fuel}");
+                Console.WriteLine($"Color: {myVehicles.Color}");
+                Console.WriteLine($"Occupancy: {myVehicles.Occupancy}");
+                myVehicles.Refueling();
+
+                Console.WriteLine("\n\n");
+            }
 
         }
     }
