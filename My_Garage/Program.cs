@@ -40,12 +40,12 @@ namespace My_Garage
 
             foreach(var myVehicles in vehicleList)
             {
-                Console.WriteLine($"{myVehicles.GetType().Name}");
-                Console.WriteLine($"{myVehicles.Fuel}");
-                Console.WriteLine($"{myVehicles.Color}");
-                Console.WriteLine($"{myVehicles.Occupancy}");
+                Console.WriteLine($"Vehicle: {myVehicles.GetType().Name}");
+                Console.WriteLine($"Fuel Level: {myVehicles.Fuel}");
+                Console.WriteLine($"Color: {myVehicles.Color}");
+                Console.WriteLine($"Occupancy: {myVehicles.Occupancy}");
                 myVehicles.Refueling();
-                Console.WriteLine("\n\n ");
+                Console.WriteLine("\n\n");
             }
 
         }
