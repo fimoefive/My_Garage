@@ -19,7 +19,7 @@ namespace My_Garage.Vehicles
         }
 
 
-        // Method Refueling
+        // Method Refueling 'override' - functionality defined in the inheriting class
         public override void Refueling()
         {
             if (Fuel <= 33)

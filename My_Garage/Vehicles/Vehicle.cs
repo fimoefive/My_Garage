@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 // Vehicles namespace
 namespace My_Garage.Vehicles
 {
-    // Abstract Class for Vehicle base
+    // Abstract Class for Vehicle base / abstract modifier
     abstract class Vehicle
     {
         // Public Properties
